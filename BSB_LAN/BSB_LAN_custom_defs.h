@@ -6043,11 +6043,11 @@ PROGMEM_LATE const cmd_t cmdtbl[]={
 {0x053D1227,  VT_ONOFF,           9073,  S9073_0,  sizeof(ENUM_ONOFF), ENUM_ONOFF,   FL_RONLY,     211, 127}, // Sortie relais QX33
 {0x053D1228,  VT_ONOFF,           9074,  S9074_0,  sizeof(ENUM_ONOFF), ENUM_ONOFF,   FL_RONLY,     211, 127}, // Sortie relais QX34
 {0x053D1229,  VT_ONOFF,           9075,  S9075_0,  sizeof(ENUM_ONOFF), ENUM_ONOFF,   FL_RONLY,     211, 127}, // Sortie relais QX35
-{0x2D3D0215,  VT_TEMP,            10000, S10000,   0,                  NULL,         DEFAULT_FLAG+FL_WONLY+FL_FORCE_INF, 255, 255},
+{0x2D3D0215,  VT_TEMP,            10000, S10000,   0,                  NULL,         DEFAULT_FLAG+FL_WONLY+FL_SPECIAL_INF, 255, 255},
 {0x2D3D021C,  VT_TEMP,            10000, S10000,   0,                  NULL,         DEFAULT_FLAG+FL_WONLY, 59, 255},
 {0x2E3E0215,  VT_TEMP,            10001, S10001,   0,                  NULL,         DEFAULT_FLAG+FL_WONLY, 255, 255},
 {0x2F3F0215,  VT_TEMP,            10002, S10002,   0,                  NULL,         DEFAULT_FLAG+FL_WONLY, 255, 255},
-{0x0500021F,  VT_TEMP,            10017, S10017,   0,                  NULL,         DEFAULT_FLAG+FL_SPECIAL_INF, 255, 255},
+{0x0500021F,  VT_TEMP,            10017, S10017,   0,                  NULL,         DEFAULT_FLAG, 255, 255},
 {0x31000212,  VT_BIT,             10018, S10018,   sizeof(ENUM_TWW),   ENUM_TWW,     FL_RONLY, 255, 255},
 {0x313D0573,  VT_ONOFF,           10019, S10019,   sizeof(ENUM_ONOFF), ENUM_ONOFF,   DEFAULT_FLAG+FL_WONLY, 255, 255},
 {0x0D3D092C,  VT_TEMP,            10020, S10020_0, 0,                  NULL,         DEFAULT_FLAG, 211, 127}, // Générateur supplémentaire - Limitation mini de température de chaudière

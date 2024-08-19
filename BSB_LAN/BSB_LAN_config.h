@@ -126,7 +126,7 @@ uint16_t fixed_device_variant = 0;
 // use "#define DEFAULT_FLAG FL_SW_CTL_RONLY" to control read/write functionality via configuration in web interface.
 // use "#define DEFAULT_FLAG 0" to make (almost) all parameters writeable
 // use #define DEFAULT_FLAG FL_RONLY to run the program always in read-only mode.
-#define DEFAULT_FLAG FL_SW_CTL_RONLY
+#define DEFAULT_FLAG 0
 
 // Setting to determine on ESP32 whether to use SD card adapter (if present) or ESP32's internal flash.
 // SD card should always be preferred to protect the ESP32's flash from wearing down.
